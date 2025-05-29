@@ -1,0 +1,49 @@
+[data-theme="light"] {
+  --bg-color: #f0f4f8;
+  --calculator-bg: rgba(255, 255, 255, 0.9);
+  --display-bg: rgba(240, 248, 255, 0.8);
+  --display-text-color: #2d3748;
+  --button-bg: #ffffff;
+  --button-text: #4a5568;
+  --btn-operation-bg: #ebf8ff;
+  --btn-operation-color: #3182ce;
+  --btn-equal-bg: #4299e1;
+  --btn-equal-color: #ffffff;
+  --btn-clear-bg: #fed7d7;
+  --btn-clear-color: #e53e3e;
+  --text-color: #2d3748;
+  --border-color: rgba(226, 232, 240, 0.8);
+  --toggle-bg: #edf2f7;
+  --toggle-color: #2d3748;
+  --calculator-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --button-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  --button-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --button-shadow-active: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --display-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  --toggle-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --bg-color: #1a202c;
+  --calculator-bg: rgba(45, 55, 72, 0.9);
+  --display-bg: rgba(26, 32, 44, 0.8);
+  --display-text-color: #f7fafc;
+  --button-bg: #4a5568;
+  --button-text: #f7fafc;
+  --btn-operation-bg: #2c5282;
+  --btn-operation-color: #ebf8ff;
+  --btn-equal-bg: #3182ce;
+  --btn-equal-color: #ffffff;
+  --btn-clear-bg: #c53030;
+  --btn-clear-color: #ffffff;
+  --text-color: #f7fafc;
+  --border-color: rgba(74, 85, 104, 0.8);
+  --toggle-bg: #2d3748;
+  --toggle-color: #f7fafc;
+  --calculator-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 10px 10px -5px rgba(0, 0, 0, 0.2);
+  --button-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  --button-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.3);
+  --button-shadow-active: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --display-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+  --toggle-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}

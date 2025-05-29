@@ -1,0 +1,52 @@
+:root {
+  /* Light theme (default) */
+  --bg-color: #f0f4f8;
+  --calculator-bg: rgba(255, 255, 255, 0.9);
+  --display-bg: rgba(240, 248, 255, 0.8);
+  --display-text-color: #2d3748;
+  --button-bg: #ffffff;
+  --button-text: #4a5568;
+  --btn-operation-bg: #ebf8ff;
+  --btn-operation-color: #3182ce;
+  --btn-equal-bg: #4299e1;
+  --btn-equal-color: #ffffff;
+  --btn-clear-bg: #fed7d7;
+  --btn-clear-color: #e53e3e;
+  --text-color: #2d3748;
+  --border-color: rgba(226, 232, 240, 0.8);
+  --toggle-bg: #edf2f7;
+  --toggle-color: #2d3748;
+
+  /* Shadows */
+  --calculator-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --button-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  --button-shadow-hover: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --button-shadow-active: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --display-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+  --toggle-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  /* Sizing and spacing */
+  --border-radius: 16px;
+  --button-radius: 12px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --header-height: 60px;
+  --display-height: 80px;
+  --history-height: 40px;
+  --button-size: 60px;
+
+  /* Typography */
+  --font-family: "Inter", "Roboto", "Segoe UI", Arial, sans-serif;
+  --font-size-sm: 14px;
+  --font-size-md: 18px;
+  --font-size-lg: 22px;
+  --font-size-xl: 28px;
+  --font-weight-normal: 400;
+  --font-weight-bold: 600;
+
+  /* Transitions */
+  --transition-speed: 0.3s;
+}
+
+/* Dark theme variables are in theme.css */
